@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "drox_visuals",
+	"version": "${version}",
+	"name": "Drox Visuals",
+	"description": "Animated HUD, ambient particles and atmosphere effects for Minecraft.",
+	"authors": ["Drox"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.drox.visuals.DroxVisualsClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
